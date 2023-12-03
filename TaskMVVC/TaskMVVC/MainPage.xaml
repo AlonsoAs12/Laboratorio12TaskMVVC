@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TaskMVVC.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#3498DB" Padding="24" CornerRadius="15" Margin="20">
+            <Label Text="¡Bienvenido a Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <StackLayout Margin="20">
+            <Label Text="Comienza a desarrollar ahora" FontSize="Title" Padding="0,10,0,10"/>
+            <Label Text="Realiza cambios en tu archivo XAML y guarda para ver cómo se actualiza la interfaz de usuario en la aplicación en ejecución con XAML Hot Reload. ¡Inténtalo!" FontSize="16" Padding="0,0,0,20"/>
+        </StackLayout>
+
+        <Frame BackgroundColor="#2E86C1" Padding="10" CornerRadius="10" Margin="20">
+            <Label FontSize="16" TextColor="#000000">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="Obtén más información en "/>
+                            <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </Frame>
+    </StackLayout>
+
+</ContentPage>
